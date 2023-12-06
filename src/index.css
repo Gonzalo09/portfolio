@@ -1,0 +1,74 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+body.modo-oscuro {
+  background-color: #15202b;
+  color: #fff;
+}
+
+.foto-perfil.modo-oscuro {
+  border: 0.3rem solid #fff;
+}
+
+.boton-cv.modo-oscuro {
+  background-color: #005f4b;
+  color: #e0e0e0;
+}
+
+.boton-cv.modo-oscuro:hover {
+  background-color: #005f4b;
+  color: #fff;
+}
+
+.sobre-mi.modo-oscuro p {
+  color: #fafafa;
+}
+
+.boton-github.modo-oscuro {
+  border: 0.1rem solid #005f4b;
+}
+
+.boton-github.modo-oscuro:hover {
+  background-color: #e0e0e03d;
+}
+
+.boton-linkedin.modo-oscuro {
+  border: 0.1rem solid #005f4b;
+}
+
+.boton-linkedin.modo-oscuro:hover {
+  background-color: #e0e0e03d;
+}
+
+.contacto.modo-oscuro p {
+  color: #fafafa;
+}
+
+.proyectos.modo-oscuro .boton-proyecto {
+  background-color: #005f4b;
+  color: #e0e0e0;
+}
+
+.proyectos.modo-oscuro .boton-proyecto:hover {
+  background-color: #005f4b;
+  color: #fff;
+}
+
+.proyectos.modo-oscuro p {
+  color: #e0e0e0;
+}

@@ -1,0 +1,30 @@
+.sobre-mi {
+  text-align: left;
+}
+
+.sobre-mi h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sobre-mi p {
+  font-size: 1.2rem;
+  color: #536471;
+  line-height: 1.5;
+}
+
+/* Responsive design */
+
+@media (max-width: 768px) {
+  .sobre-mi {
+    text-align: center;
+  }
+
+  .sobre-mi h2 {
+    font-size: 1.5rem;
+  }
+
+  .sobre-mi p {
+    font-size: 1rem;
+  }
+}

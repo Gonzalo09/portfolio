@@ -1,0 +1,21 @@
+#root {
+  max-width: 55rem;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.linea {
+  width: 100%;
+  height: 0.1rem;
+  background-color: #536471;
+  margin: 4rem 0;
+}
+
+/* Responsive design */
+
+@media (max-width: 768px) {
+  .linea {
+    margin: 2rem 0;
+  }
+}

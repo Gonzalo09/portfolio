@@ -1,0 +1,148 @@
+.perfil {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.foto-perfil {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1rem;
+  border: 0.3rem solid #000;
+  background-color: #2a3444;
+}
+
+.foto-perfil img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.nombre-perfil h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.nombre-perfil p {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #536471;
+}
+
+.boton-cv {
+  background-color: #00bfa5;
+  color: #242f3b;
+  border: none;
+  padding: 0.6rem 1.3rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.boton-cv:hover {
+  background-color: #00bfa5d1;
+}
+
+.icono-cv {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.boton-github {
+  background-color: transparent;
+  color: #242f3b;
+  border: 0.1rem solid #00bfa5;
+  padding: 0.6rem 1rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.boton-github:hover {
+  background-color: #2d2d2d31;
+}
+
+.icono-github {
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
+}
+
+.boton-linkedin {
+  background-color: transparent;
+  color: #242f3b;
+  border: 0.1rem solid #00bfa5;
+  padding: 0.6rem 1rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.boton-linkedin:hover {
+  background-color: #2d2d2d31;
+}
+
+.icono-linkedin {
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
+}
+
+/* Responsive design */
+
+@media (max-width: 768px) {
+  .perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .foto-perfil {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .nombre-perfil h1 {
+    font-size: 2.5rem;
+  }
+
+  .nombre-perfil p {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .boton-cv {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    align-self: center;
+  }
+
+  .boton-github {
+    margin-left: 0.4rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .boton-linkedin {
+    margin-left: 1rem;
+    margin-right: 0.4rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+}
