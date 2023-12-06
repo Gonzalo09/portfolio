@@ -69,6 +69,10 @@
 /* Responsive design */
 
 @media (max-width: 768px) {
+  .habilidades {
+    text-align: center;
+  }
+
   .tecnologias-habilidades {
     justify-content: center;
   }
