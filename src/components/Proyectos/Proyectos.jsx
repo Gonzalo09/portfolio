@@ -10,6 +10,7 @@ import socketIcon from "../../assets/socketio.svg";
 import comunidadDeTrabajo from "../../assets/comunidad-de-trabajo.jpg";
 import chat from "../../assets/chat.png";
 import rickAndMortyApp from "../../assets/ejemploInicio.png";
+import clima from "../../assets/Clima.jpg";
 
 import "./proyectos.css";
 
@@ -198,9 +199,9 @@ const Proyectos = ({ modoOscuro }) => {
         <div className="info-proyecto">
           <h3>Rick and Morty App</h3>
           <p>
-            Aplicación web que permite visualizar información sobre la serie
-            animada Rick and Morty. Se puede buscar personajes, episodios y
-            locaciones, y ver información sobre cada uno.
+            Sumergite en el universo de Rick and Morty con esta aplicación web.
+            Explorá personajes, episodios y locaciones de la serie animada.
+            Descubrí información detallada y disfrutá del mundo de Rick y Morty.
           </p>
           <div className="tecnologias">
             <span className="icono-tecnologia" alt="React" title="React">
@@ -232,6 +233,52 @@ const Proyectos = ({ modoOscuro }) => {
             <a
               className="boton-proyecto"
               href="https://rick-and-morty-series-app.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Demo
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="proyecto">
+        <div className="imagenes-proyecto">
+          <img
+            src={clima}
+            alt="Proyecto 4"
+            onClick={() => window.open("https://clima-argentina.vercel.app/")}
+          />
+        </div>
+        <div className="info-proyecto">
+          <h3>Clima Argentina</h3>
+          <p>
+            Mantenete al tanto del clima en distintas ciudades de Argentina con
+            esta aplicación web. Buscá ciudades, obtené información actualizada
+            e informate sobre el clima en tu ciudad.
+          </p>
+          <div className="tecnologias">
+            <span className="icono-tecnologia" alt="React" title="React">
+              <img src={reactIcon} alt="React" title="" />
+            </span>
+            <span className="icono-tecnologia" alt="HTML5" title="HTML5">
+              <img src={htmlIcon} alt="HTML5" title="" />
+            </span>
+            <span className="icono-tecnologia" alt="CSS3" title="CSS3">
+              <img src={cssIcon} alt="CSS3" title="" />
+            </span>
+          </div>
+          <div className="botones">
+            <a
+              className="boton-proyecto"
+              href="https://github.com/Gonzalo09/clima"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Código
+            </a>
+            <a
+              className="boton-proyecto"
+              href="https://clima-argentina.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
