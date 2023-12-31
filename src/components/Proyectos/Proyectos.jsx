@@ -39,25 +39,14 @@ const Proyectos = ({ modoOscuro }) => {
         ></lord-icon>
       </h2>
       <div className="proyecto">
-        <div className="imagenes-proyecto">
-          <img
-            src={comunidadDeTrabajo}
-            alt="Proyecto 1"
-            onClick={() =>
-              window.open(
-                "https://comunidad-de-trabajo-unahur-comunidad-de-trabajo.vercel.app/"
-              )
-            }
-          />
-        </div>
         <div className="info-proyecto">
           <h3>Bolsa de empleo UNAHUR</h3>
           <p>
-            {/* Proyecto realizado para la materia Practica Profesional
-              Supervisada (PPS) de la Universidad Nacional de Hurlingham. */}
             Bolsa de empleo para la comunidad de la Universidad Nacional de
-            Hurlingham. Permite a los usuarios registrarse, postularse a ofertas
-            laborales, crear ofertas laborales y más.
+            Hurlingham. Esta aplicación permite a los usuarios registrarse y
+            postularse a las ofertas de trabajo publicadas por las empresas. El
+            administrador puede gestionar las ofertas de trabajo y los datos de
+            los usuarios.
           </p>
           <div className="tecnologias">
             <span className="icono-tecnologia" alt="React" title="React">
@@ -118,11 +107,19 @@ const Proyectos = ({ modoOscuro }) => {
             </a>
           </div>
         </div>
+        <div className="imagenes-proyecto">
+          <img
+            src={comunidadDeTrabajo}
+            alt="Proyecto 1"
+            onClick={() =>
+              window.open(
+                "https://comunidad-de-trabajo-unahur-comunidad-de-trabajo.vercel.app/"
+              )
+            }
+          />
+        </div>
       </div>
       <div className="proyecto">
-        <div className="imagenes-proyecto">
-          <img src={chat} alt="Proyecto 2" />
-        </div>
         <div className="info-proyecto">
           <h3>Equivalencias UNAHUR</h3>
           <p>
@@ -185,23 +182,18 @@ const Proyectos = ({ modoOscuro }) => {
             </a>
           </div>
         </div>
+        <div className="imagenes-proyecto">
+          <img src={chat} alt="Proyecto 2" />
+        </div>
       </div>
       <div className="proyecto">
-        <div className="imagenes-proyecto">
-          <img
-            src={rickAndMortyApp}
-            alt="Proyecto 3"
-            onClick={() =>
-              window.open("https://rick-and-morty-series-app.netlify.app/")
-            }
-          />
-        </div>
         <div className="info-proyecto">
           <h3>Rick and Morty App</h3>
           <p>
-            Sumergite en el universo de Rick and Morty con esta aplicación web.
-            Explorá personajes, episodios y locaciones de la serie animada.
-            Descubrí información detallada y disfrutá del mundo de Rick y Morty.
+            Rick and Morty App es una aplicación web que permite visualizar
+            información sobre la serie animada Rick and Morty. En esta
+            encontrarás información sobre los personajes, episodios y locaciones
+            de la famosa serie.
           </p>
           <div className="tecnologias">
             <span className="icono-tecnologia" alt="React" title="React">
@@ -240,21 +232,24 @@ const Proyectos = ({ modoOscuro }) => {
             </a>
           </div>
         </div>
-      </div>
-      <div className="proyecto">
         <div className="imagenes-proyecto">
           <img
-            src={clima}
-            alt="Proyecto 4"
-            onClick={() => window.open("https://clima-argentina.vercel.app/")}
+            src={rickAndMortyApp}
+            alt="Proyecto 3"
+            onClick={() =>
+              window.open("https://rick-and-morty-series-app.netlify.app/")
+            }
           />
         </div>
+      </div>
+      <div className="proyecto">
         <div className="info-proyecto">
           <h3>Clima Argentina</h3>
           <p>
-            Mantenete al tanto del clima en distintas ciudades de Argentina con
-            esta aplicación web. Buscá ciudades, obtené información actualizada
-            e informate sobre el clima en tu ciudad.
+            Aplicación web que permite visualizar las condiciones climáticas de
+            cualquier ciudad de Argentina. Además de proporcionar datos del
+            clima actual, como visibilidad, humedad, presión, etc., también
+            podrás consultar el pronóstico extendido de 3 días.
           </p>
           <div className="tecnologias">
             <span className="icono-tecnologia" alt="React" title="React">
@@ -285,6 +280,13 @@ const Proyectos = ({ modoOscuro }) => {
               Demo
             </a>
           </div>
+        </div>
+        <div className="imagenes-proyecto">
+          <img
+            src={clima}
+            alt="Proyecto 4"
+            onClick={() => window.open("https://clima-argentina.vercel.app/")}
+          />
         </div>
       </div>
     </div>

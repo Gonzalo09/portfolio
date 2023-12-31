@@ -10,6 +10,7 @@ import githubIcon from "../../assets/github-mark.svg";
 import githubIcon2 from "../../assets/github-mark-white.svg";
 import trelloIcon from "../../assets/trello.svg";
 import figmaIcon from "../../assets/figma.svg";
+import javaScriptIcon from "../../assets/javascript-1.svg";
 
 import PropTypes from "prop-types";
 
@@ -42,11 +43,23 @@ const Habilidades = ({ modoOscuro }) => {
         ></lord-icon>
       </h2>
       <div className="tecnologias-habilidades">
+        <span className="icono-tecnologia-habilidades" title="HTML">
+          <img src={htmlIcon} alt="HTML" title="" />
+        </span>
+        <span className="icono-tecnologia-habilidades" title="CSS">
+          <img src={cssIcon} alt="CSS" title="" />
+        </span>
+        <span className="icono-tecnologia-habilidades" title="JavaScript">
+          <img src={javaScriptIcon} alt="JavaScript" title="" />
+        </span>
         <span className="icono-tecnologia-habilidades" title="React">
           <img src={reactIcon} alt="React" title="" />
         </span>
         <span className="icono-tecnologia-habilidades" title="MaterialUI">
           <img src={materialUIIcon} alt="Material-UI" title="" />
+        </span>
+        <span className="icono-tecnologia-habilidades" title="PostgreSQL">
+          <img src={postgresIcon} alt="PostgreSQL" title="" />
         </span>
         <span className="icono-tecnologia-habilidades" title="Node.js">
           <img src={nodeIcon} alt="Node.js" title="" />
@@ -54,18 +67,10 @@ const Habilidades = ({ modoOscuro }) => {
         <span className="icono-tecnologia-habilidades" title="Sequelize">
           <img src={sequelizeIcon} alt="Sequelize" title="" />
         </span>
-        <span className="icono-tecnologia-habilidades" title="PostgreSQL">
-          <img src={postgresIcon} alt="PostgreSQL" title="" />
-        </span>
         <span className="icono-tecnologia-habilidades" title="Supabase">
           <img src={supabaseIcon} alt="Supabase" title="" />
         </span>
-        <span className="icono-tecnologia-habilidades" title="HTML">
-          <img src={htmlIcon} alt="HTML" title="" />
-        </span>
-        <span className="icono-tecnologia-habilidades" title="CSS">
-          <img src={cssIcon} alt="CSS" title="" />
-        </span>
+
         <span className="icono-tecnologia-habilidades" title="GitHub">
           {modoOscuro ? (
             <img src={githubIcon2} alt="GitHub" title="" />

@@ -39,11 +39,6 @@
     font-size: 1rem;
   }
 
-  .contacto a {
-    color: #6291b4;
-    text-decoration: none;
-  }
-
   .contacto a:hover {
     text-decoration: underline;
   }
