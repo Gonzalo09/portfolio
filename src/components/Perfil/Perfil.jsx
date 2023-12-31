@@ -26,7 +26,7 @@ const Perfil = ({ modoOscuro }) => {
           className={`boton-cv ${modoOscuro ? "modo-oscuro" : ""}`}
           onClick={() =>
             window.open(
-              "https://drive.google.com/file/d/1_nkhxbPnhQDJX5lCX6uJFedY4oxPS6oE/view?usp=drive_link"
+              "https://drive.google.com/file/d/1crg0_LaJb9l-hFWDM9ZC5TugHz2P4C5a/view?usp=sharing"
             )
           }
         >
